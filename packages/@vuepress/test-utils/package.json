@@ -1,0 +1,42 @@
+{
+  "name": "@vuepress/test-utils",
+  "version": "1.5.0",
+  "description": "test-utils for vuepress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "vue",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/test-utils#readme",
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuepress.git",
+    "directory": "packages/@vuepress/test-utils"
+  },
+  "license": "MIT",
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@types/jest": "^24.0.9",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vuepress/core": "1.5.0",
+    "@vuepress/shared-utils": "1.5.0",
+    "babel-jest": "^24.7.1",
+    "execa": "^1.0.0",
+    "jest": "^24.7.1",
+    "jest-serializer-vue": "^2.0.2",
+    "ts-jest": "^24.0.2",
+    "vue": "^2.6.10",
+    "vue-jest": "^4.0.0-beta.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
