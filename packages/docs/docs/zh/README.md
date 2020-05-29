@@ -1,34 +1,50 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /vue-scaff.png
 actionText: 快速上手 →
 actionLink: /zh/guide/
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue 驱动
-  details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2019 - Present by YinTech
 ---
 
-### 像数 1, 2, 3 一样容易
+<div style="text-align: center">
+  <Bit/>
+</div>
 
-``` bash
+<div class="features">
+  <div class="feature">
+    <h2>简洁至上</h2>
+    <p>专注编码<br />其余的交给 Vue-Scaff 处理！</p>
+  </div>
+
+  <div class="feature">
+    <h2>Vue 驱动</h2>
+    <p>已经学会 vue 开发了？<br />那么，请开始你的表演！</p>
+  </div>
+
+  <div class="feature">
+    <h2>自动注册</h2>
+    <p>担忧？不存在的。<br />撸就完了！</p>
+  </div>
+</div>
+
+### 开始使用 Vue-Scaff
+
+```sh
 # 安装
-yarn global add vuepress # 或者：npm install -g vuepress
+yarn global add @vue/cli
+# 或者
+npm i -g @vue/cli
 
-# 新建一个 markdown 文件
-echo '# Hello VuePress!' > README.md
+# 创建一个应用
+vue create -p vue-scaff/vue-cli-preset --clone <project-name>
 
-# 开始写作
-vuepress dev .
+# 开始编码
+yarn serve
 
-# 构建静态文件
-vuepress build .
+# 构建项目
+yarn build
 ```
 
 ::: warning 注意
-请确保你的 Node.js 版本 >= 8.6。
+请确保您的 Node.js 版本 >= 10。
 :::
