@@ -18,6 +18,7 @@
     "packages:changed": "lerna changed",
     "packages:diff": "lerna diff",
     "packages:list": "lerna ls -l",
+    "pass": "scp -r /Users/joenix/Source/@scaff/vue-scaff-document/packages/docs/docs/.vuepress/dist/* root@101.37.79.210:/var/www/vue-scaff.joenix.com/",
     "register-vuepress": "lerna exec --scope vuepress -- yarn link",
     "release": "yarn lint && yarn build && yarn test && node scripts/release.js",
     "remote-version": "node scripts/remote-version.js",

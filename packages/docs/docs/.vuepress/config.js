@@ -108,7 +108,8 @@ module.exports = context => {
             ]),
             '/development/': sider(`Development`, [
               'configure',
-              'use'
+              'use',
+							'mock'
             ]),
             '/template/': sider(`Template`)
           }

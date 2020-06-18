@@ -12,6 +12,22 @@
 }
 ```
 
+### `mock` of project
+
+```js
+{
+  mock: true
+}
+```
+
+### `px2rem` of project
+
+```js
+{
+  px2rem: 10;
+}
+```
+
 ### `registry` of project
 
 ```js
@@ -43,6 +59,12 @@
 		// General Utils
 		util: {
 			context: `@/utils`,
+			suffix: /.js$/
+		},
+
+		// Text Filters
+		filter: {
+			context: `@/filters`,
 			suffix: /.js$/
 		},
 

@@ -12,13 +12,13 @@ Vue-Scaff follows the principle of **"Convention over Configuration"**, the reco
 │   ├── `pages` _(**Required**)_
 │   ├── `components` _(**Optional**)_
 │   ├── `i18n` _(**Optional**)_
+│   ├── `filters` _(**Optional**)_
 │   ├── `utils` _(**Optional**)_
+│   ├── `mock` _(**Optional**)_
 │   ├── `sheet` _(**Required**)_
 │   │ 
 │   ├── App.vue
-│   ├── main.js
-│   │ 
-│   └── scaff.js
+│   └── main.js
 │ 
 ├── dist
 │   ├── `dev` _(**Optional**)_
@@ -46,7 +46,10 @@ Please note the capitalization of the directory name.
 - `src/assets`: Local resources directory.
 - `src/pages`: Page directory. According with Routing-Configure.
 - `src/components`: Components registered.
+- `src/i18n`: Language package here.
+- `src/filters`: Apply common text formatting.
 - `src/utils`: Tools files.
+- `src/mock`: Simulation data with request `/mock/*`.
 - `src/sheet`: Stores style related files.
 - `injection.json`: The settings will be injected into `process.env`
 - `vuescaffrc.js`: Configure of `vue-scaff`
