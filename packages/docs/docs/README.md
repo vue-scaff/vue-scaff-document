@@ -48,3 +48,8 @@ yarn build
 ::: warning COMPATIBILITY NOTE
 Vue-Scaff requires Node.js >= 10
 :::
+
+<div style="text-align: center; margin-top: 128px;">
+	<img width="256" height="256" style="box-shadow: 0 0 6px rgba(0, 0, 0, .25); border-radius: 6px;" src="http://oss.joenix.com/joenix.com/qr-group.png" />
+</div>
+<h3 style="text-align: center;">Wechat Group</h3>
