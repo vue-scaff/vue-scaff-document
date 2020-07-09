@@ -70,7 +70,7 @@ module.exports = context => {
   // Theme Config
   option.themeConfig = {
     // Github Repo
-    repo: `vue-scaff/vue-cli-scaff`,
+    repo: `vue-scaff/vue-scaff-document`,
     // Author
     author: `joenix`,
     // Link 2 Github
@@ -111,7 +111,10 @@ module.exports = context => {
               'use',
 							'mock'
             ]),
-            '/template/': sider(`Template`)
+            '/template/': sider(`Template`, [
+							'h5',
+							'admin'
+						])
           }
         }
       ),
