@@ -1,17 +1,19 @@
-# Admin Template
+# Admin
 
-2. Admin Template Demo
+## Thumbnail
 
 <img src="http://oss.joenix.com/joenix.com/admin-login.jpg" width="680" />
 <img src="http://oss.joenix.com/joenix.com/admin-dashboard.jpg" width="680" />
 
-## Demo
+## Preview
 
 [DEMO](http://vue-scaff-admin.joenix.com/)
 
-## Clone
+## Source Code
 
-https://github.com/vue-scaff/vue-scaff-admin.git
+```sh
+git clone https://github.com/vue-scaff/vue-scaff-admin.git
+```
 
 ## Download
 

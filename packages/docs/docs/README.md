@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /vue-scaff.png
+heroImage: http://oss.joenix.com/vue-scaff/logo.png
 actionText: Get Started →
 actionLink: /guide/
 footer: MIT Licensed | Copyright © 2019 - Present by YinTech
@@ -49,7 +49,13 @@ yarn build
 Vue-Scaff requires Node.js >= 10
 :::
 
-<div style="text-align: center; margin-top: 128px;">
-	<img width="256" height="256" style="box-shadow: 0 0 6px rgba(0, 0, 0, .25); border-radius: 6px;" src="http://oss.joenix.com/joenix.com/qr-group.png" />
+<div class="friendship">
+	<a target="_blank" href="https://discord.gg/xxu5V5C">
+		<img width="256" height="256" src="http://oss.joenix.com/joenix.com/qr-elysium.png" />
+		<h3>Vue Scaff Elysium</h3>
+	</a>
+	<span>
+		<img width="256" height="256" src="http://oss.joenix.com/joenix.com/qr-group.png" />
+		<h3>Wechat Group</h3>
+	</span>
 </div>
-<h3 style="text-align: center;">Wechat Group</h3>

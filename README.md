@@ -1,6 +1,6 @@
 <div align="center">
   <a href="http://vue-scaff.joenix.com/" target="_blank">
-    <img width="180" src="http://oss.joenix.com/joenix.com/vue-scaff.png" alt="logo">
+    <img width="180" src="http://oss.joenix.com/vue-scaff/logo.png" alt="logo">
   </a>
 </div>
 
