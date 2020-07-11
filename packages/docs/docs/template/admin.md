@@ -2,8 +2,8 @@
 
 ## Thumbnail
 
-<img src="http://oss.joenix.com/joenix.com/admin-login.jpg" width="680" />
-<img src="http://oss.joenix.com/joenix.com/admin-dashboard.jpg" width="680" />
+<img src="http://oss.joenix.com/vue-scaff/admin-login.jpg" width="680" />
+<img src="http://oss.joenix.com/vue-scaff/admin-dashboard.jpg" width="680" />
 
 ## Preview
 

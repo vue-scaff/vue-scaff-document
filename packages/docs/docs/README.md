@@ -35,7 +35,7 @@ yarn global add @vue/cli
 # or
 npm i -g @vue/cli
 
-# create a application
+# create an application
 vue create -p vue-scaff/vue-cli-preset --clone <project-name>
 
 # start coding

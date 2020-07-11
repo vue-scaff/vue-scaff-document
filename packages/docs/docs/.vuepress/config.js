@@ -131,9 +131,20 @@ module.exports = context => {
         ],
         {
           sidebar: {
-            // "/zh/guide/": sider(`指南`, read(resolve(`../zh/guide`))),
-            // "/zh/development/": sider(`开发`, read(resolve(`../zh/development`))),
-            // "/zh/template/": sider(`模板`, read(resolve(`../zh/template`)))
+            '/zh/guide/': sider(`Guide`, [
+              'start',
+              'structure',
+              'deploy'
+            ]),
+            '/zh/development/': sider(`Development`, [
+              'configure',
+              'use',
+							'mock'
+            ]),
+            '/zh/template/': sider(`Template`, [
+							'h5',
+							'admin'
+						])
           }
         }
       )

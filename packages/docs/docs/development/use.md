@@ -143,6 +143,7 @@ use in `.vue`
 ```js
 this.$util.plus(1, 2); // 3
 ```
+
 ### 2. filter
 
 example: `@/filters` in rc
