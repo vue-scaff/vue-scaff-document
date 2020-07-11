@@ -24,7 +24,8 @@
 
 ## Documentation
 
-Check out docs at http://vue-scaff.joenix.com/.
+- Check docs at http://vue-scaff.joenix.com/.
+- Check demos at http://vue-scaff.joenix.com/template
 
 ## Get Started
 

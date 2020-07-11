@@ -1,23 +1,14 @@
 <template>
-  <p
-    v-if="false"
-    class="special-thanks"
-  >
-    <a
-      href="https://www.yintech.cn/"
-      target="_blank"
-    >
+  <p v-if="false" class="special-thanks">
+    <a href="https://www.joenix.com/" target="_blank">
       <span>Special Thanks to</span>
-      <img
-        alt="bit"
-        :src="`${$site.base}yintech.png`"
-      >
+      <img alt="bit" :src="`${$site.base}?.png`" />
     </a>
   </p>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="stylus">

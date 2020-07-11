@@ -3,7 +3,7 @@ home: true
 heroImage: http://oss.joenix.com/vue-scaff/logo.png
 actionText: Get Started →
 actionLink: /guide/
-footer: MIT Licensed | Copyright © 2019 - Present by YinTech
+footer: MIT Licensed | Copyright © 2019 - Present by joenix.com
 ---
 
 <div style="text-align: center">

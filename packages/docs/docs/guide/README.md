@@ -4,7 +4,7 @@
 
 <font color="#f63"><b>Vue Scaff</b></font> arms to be a progressive vue-engineering scaffold for help Developers build and deploy apps simply. It ensures the various projects work smoothly with sensible defaults. Then you can focus on writing your app instead of spending days wrangling with configurations. As the same time, it still offers the flexibility to tweak the config of each part without the need for ejecting. From free to open source, vue-scaff makes app creation lightning fast. 💯
 
-[REPO on YinTech](http://192.168.33.9/archive/vue-scaff)
+[REPO on GITHUB](https://github.com/vue-scaff/vue-cli-scaff)
 
 ## How It Works
 
